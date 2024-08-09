@@ -1,6 +1,6 @@
 pipeline //Declarative pipeline always starts with pipeline keyword
 {
-    agen any // run below stages on any executor or any VM
+    agent any // run below stages on any executor or any VM
     stages // contains all the stages which need to execute
 
     {
