@@ -5,7 +5,7 @@ pipeline //Declarative pipeline always starts with pipeline keyword
     {
         stage ('printing the welcone message') //defining the stage
         {
-            steps(echo 'Hello Jenkins') // it tells the jenkins what action needs to perform
+            steps {echo 'Hello Jenkins'} // it tells the jenkins what action needs to perform
         }
 
     }
