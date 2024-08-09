@@ -1,12 +1,11 @@
 pipeline //Declarative pipeline always starts with pipeline keyword
 {
-    agent any // run the below stages on any executor or any VM
     stages // contains all the stages which need to execute
 
     {
-        stage ("printing the welcone message") //defining the stage
+        stage ('printing the welcone message') //defining the stage
         {
-            steps{echo "Hello Jenkins"} // it tells the jenkins what action needs to perform
+            steps(echo "Hello Jenkins") // it tells the jenkins what action needs to perform
         }
 
     }
